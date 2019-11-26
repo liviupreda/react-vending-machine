@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import "./Sardines.css";
 
 class Sardines extends Component {
@@ -12,6 +14,7 @@ class Sardines extends Component {
         }}
       >
         <h1>Sardines</h1>
+        <Link to="/">Go Back</Link>
       </div>
     );
   }

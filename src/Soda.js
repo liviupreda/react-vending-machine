@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import SodaImg from "./Soda.png";
 import "./Soda.css";
 
@@ -8,6 +10,7 @@ class Soda extends Component {
       <div className="Soda">
         <h1>Soda</h1>
         <img src={SodaImg} alt="Soda" />
+        <Link to="/">Go Back</Link>
       </div>
     );
   }
