@@ -7,9 +7,9 @@ class Navbar extends Component {
     return (
       <div className="Navbar">
         <NavLink to="/">Home</NavLink>
+        <NavLink to="/chips">Chips</NavLink>
         <NavLink to="/soda">Soda</NavLink>
         <NavLink to="/sardines">Sardines</NavLink>
-        <NavLink to="/hips">Chips</NavLink>
       </div>
     );
   }
