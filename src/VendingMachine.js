@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Message from "./Message";
 import "./VendingMachine.css";
 import VendingMachineImg from "./VendingMachine.png";
 
@@ -18,6 +19,7 @@ class VendingMachine extends Component {
         <Link exact to="/sardines">
           Sardines
         </Link>
+        <Message />
       </div>
     );
   }
