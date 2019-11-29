@@ -9,17 +9,14 @@ class VendingMachine extends Component {
     return (
       <div className="VendingMachine">
         <img src={VendingMachineImg} alt="Vending Machine" />
-        <h1>Vending Machine</h1>
-        <Link exact to="/soda">
-          Soda
-        </Link>
-        <Link exact to="/chips">
-          Chips
-        </Link>
-        <Link exact to="/sardines">
-          Sardines
-        </Link>
-        <Message />
+        <Message>
+          <h1>Vending Machine</h1>
+        </Message>
+        <Message>
+          <Link to="/soda">Soda</Link>
+          <Link to="/chips">Chips</Link>
+          <Link to="/sardines">Sardines</Link>
+        </Message>
       </div>
     );
   }
